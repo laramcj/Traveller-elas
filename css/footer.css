@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+
+.rodape {
+    align-items: center;
+    background-color: #f8f8f2;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    height: 60px;
+    justify-content: center;
+}
+
+.rodape__detalhes {
+    align-items: center;
+    color: #44475a;
+    display: flex;
+}
+
+.icon-rodape {
+    color: #44475a;
+    display: flex;
+    margin-right: 15px;
+}
+
+@media screen and (min-width: 0) {
+    .rodape  {
+        font-size: 12px;
+    }
+    .icon-rodape {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        font-size: 12px;
+    }
+    .icon-rodape {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .rodape {
+        font-size: 16px;
+    }
+    .icon-rodape {
+        font-size: 28px;
+    }
+}

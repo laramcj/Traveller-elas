@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+.icon-logo {
+    color: #8c0de0;
+    padding-right: 15px;
+}
+
+.logo {
+    align-items: center;
+    color: #3a3a3a;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 0) {
+    .logo {
+        display: none;
+    }   
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        display: block;
+    }   
+}

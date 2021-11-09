@@ -1,0 +1,32 @@
+.imagem-carrossel {
+    height: 400px;
+    object-fit: cover;
+    object-position: 0 60%;
+}
+
+.titulo-banner {
+    color: #EFF2FB;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 6px 0px 4px rgba(61, 60, 60, 0.25), 0px 6px 4px rgba(61, 60, 60, 0.25);
+}
+
+.fonte-padrao {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    max-width: 18rem;
+}
+
+.icon {
+    color: #3D3C3C;
+    font-size: 24px;
+}
+
+.icon-star {
+    color: rgba(255, 84, 51, 0.9);;
+}
+
+.alerta-covid {
+    font-family: 'Noticia Text', serif;
+}

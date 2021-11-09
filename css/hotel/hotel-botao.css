@@ -1,0 +1,42 @@
+.hotel__botao {
+    background: #fdfdfd;
+    border: 1px solid #8c0de0;
+    border-radius: 5px;
+    color: #8c0de0;
+    margin: 20px 0 0 0;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.hotel__botao:hover {
+    background: #8c0de0;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    cursor: pointer;
+    font-weight: 900;
+    padding: 10px 16px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.hotel__botao a:link {
+    color: #8c0de0;
+    text-decoration: none;
+}
+
+.hotel__botao a:visited {
+     color: #8c0de0;
+     text-decoration: none;
+ }
+
+.hotel__botao a:hover {
+     color: #fdfdfd;
+     text-decoration: none;
+ }
+ 
+.hotel__botao a:active {
+     color: #8c0de0;
+     text-decoration: none;
+ }

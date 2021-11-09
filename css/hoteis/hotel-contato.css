@@ -1,0 +1,46 @@
+.hotel__principal {
+    color: #3b3b3b;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+.icon-hotel {
+    font-size: 14px;
+    /* margin-right: 5px; */
+}
+
+.header-contato {
+    padding: 20px;
+}
+
+.hotel__contato {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 0) {
+    .hotel__principal {
+        font-size: 10px;
+        padding: 18px;
+        margin-top: 20px;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hotel__principal {
+        font-size: 10px;
+        padding: 18px;
+        margin-top: 20px;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hotel__principal {
+        font-size: 16px;   
+        padding: 40px;
+        margin-top: 30px;
+        width: 65%;
+    }
+}

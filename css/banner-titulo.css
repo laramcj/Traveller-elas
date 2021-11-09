@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+
+.banner__titulo {
+    color: #fff;
+    font-family: 'RocknRoll One', sans-serif;
+    padding-left: 65px;
+    position: absolute;
+    text-shadow: 0 4px 4px #44475a;
+    top: 40%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__titulo {
+        font-size: 48;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo {
+    font-size: 60px;
+    }
+}

@@ -1,0 +1,22 @@
+.hotel__avaliacao {
+    margin-top: 8px;
+    text-align: justify;
+}
+
+@media screen and (min-width: 0) {
+    .hotel__avaliacao {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hotel__avaliacao {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hotel__avaliacao {
+        font-size: 14px;   
+    }
+}

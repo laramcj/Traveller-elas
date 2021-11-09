@@ -1,0 +1,10 @@
+.botao-detalhes {
+    border-color: #3D3C3C;
+    border-radius: 6px;
+    color: #3D3C3C;
+}
+
+.botao-detalhes:hover {
+    background-color: #3D3C3C;
+    color: #f1f1f1;
+}

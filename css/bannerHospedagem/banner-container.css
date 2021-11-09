@@ -1,0 +1,6 @@
+.banner__container {
+    background-color: #8c0de0;
+    height: calc(100vh - 105px);
+    width: 100%;
+}
+
